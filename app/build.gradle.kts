@@ -30,7 +30,7 @@ android {
     namespace = "me.bmax.apatch"
 
     defaultConfig {
-        applicationId = "github.lemon.Kernel"
+        applicationId = "github.lemon.kernel"
     }
 
     buildTypes {
@@ -258,7 +258,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime.compose)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
-
+    
     implementation(libs.compose.destinations.core)
     ksp(libs.compose.destinations.ksp)
 
